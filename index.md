@@ -41,7 +41,6 @@
             display:inline-block;
             float:left;
             align-content: center;
-
         }
         button{
             border: 0px;
@@ -55,18 +54,16 @@
            display: inline-block;
            float: right;
            margin: 10px;
-
         }
         p{
             font-size: 30px;
             display:block ;
         }
-
         button.cir{
             width: 90px;
             height: 90px;
             border-radius: 90px;
-            align-content: inline-block;
+            align-content: inline;
             float:inherit;
             margin-left:20px;
         }
