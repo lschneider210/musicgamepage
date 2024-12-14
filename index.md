@@ -51,7 +51,7 @@
            border-radius: 10px;
            background-color: #F5F5F5;
            align-content: center;
-           display: inline-block;
+           display: block;
            float: right;
            margin: 10px;
         }
@@ -227,10 +227,8 @@
 </div>
 </body>
 <script>
-
     const q1aud1 = document.getElementById("q1aud1");
     const q1mustango = document.getElementById("q1mustango");
-
    q1aud1.addEventListener("click", () => {
     if (q1mustango.paused) {
    q1mustango.play();
@@ -240,7 +238,6 @@
 });
     const q1aud2 = document.getElementById("q1aud2");
     const q1real = document.getElementById("q1real");
-
    q1aud2.addEventListener("click", () => {
     if (q1real.paused) {
    q1real.play();
@@ -250,7 +247,6 @@
 });
     const q2aud1 = document.getElementById("q2aud1");
     const q2real = document.getElementById("q2real");
-
    q2aud1.addEventListener("click", () => {
     if (q2real.paused) {
    q2real.play();
@@ -260,7 +256,6 @@
 });
 const q2aud2 = document.getElementById("q2aud2");
     const q2suno = document.getElementById("q2suno");
-
    q2aud2.addEventListener("click", () => {
     if (q2suno.paused) {
    q2suno.play();
@@ -270,7 +265,6 @@ const q2aud2 = document.getElementById("q2aud2");
 });
 const q3aud1 = document.getElementById("q3aud1");
 const q3real = document.getElementById("q3real");
-
    q3aud1.addEventListener("click", () => {
     if (q3real.paused) {
    q3real.play();
@@ -279,7 +273,6 @@ const q3real = document.getElementById("q3real");
 }});
 const q3aud2 = document.getElementById("q3aud2");
 const q3mgm = document.getElementById("q3mgm");
-
    q3aud2.addEventListener("click", () => {
     if (q3mgm.paused) {
    q3mgm.play();
@@ -330,6 +323,5 @@ const q4real = document.getElementById("q4rea.");
     document.getElementById("q4a2").style.backgroundColor ="#FF7448";
     document.querySelector("span.q4a2").innerHTML = "Sample 2: Non-AI";
      }
-   
 </script>
 
