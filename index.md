@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -40,7 +39,7 @@
             margin-inline: 15px;   
             margin-bottom: 20px;   
             display:inline-block;
-            float: left;
+            float:left;
             align-content: center;
 
         }
@@ -53,8 +52,8 @@
            border-radius: 10px;
            background-color: #F5F5F5;
            align-content: center;
-           display:inline-block;
-           float:right;
+           display: inline-block;
+           float: right;
            margin: 10px;
 
         }
@@ -84,10 +83,7 @@
         .ans:hover{
             background-color: rgba(228, 228, 228, 0.945);
         }
-        .aud{
-            
-        }
-       #q1{
+        #q1{
         .cir{ 
             background-color: #9C6BFF;}
         }
@@ -102,7 +98,7 @@
         #q4{
         .cir{ 
             background-color: #4867FF;}
-        }
+        } 
        span{
           font-size: 22px;
           font-weight: bold;
@@ -339,5 +335,4 @@ const q4real = document.getElementById("q4rea.");
      }
    
 </script>
-</html>
 
